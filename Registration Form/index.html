@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Barangay Tracker</title>
+</head>
+<body>
+    <section class="contact">
+        &nbsp; <br> &nbsp;
+    </section>
+    <section class="contact">
+        <div class="container-fluid contact-form px-4">
+            <br><br>
+            <div class="head-row">
+                <div class="logo">
+                    <img src="brgylogo.png" alt="Logo" class="logo-img"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="text-header pad justify-content-center">
+                    <h2 class="contact-head">Barangay Tracker</h2>
+                    <hr class="hr-contact">
+                </div>
+            </div>
+            
+            <div class="head px-0"><h1 class="px-0 text-center">Personal Information</h1></div>
+            <div>
+                <form action="#">
+                    <div class="row pad">
+                        <div class="col-md-8 col-sm-8 px-0">  
+                            <label for="name" class="title">Full Name&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-1-col-1 pt-2">
+                                    <input type="text" id="last-name" name="last-name" placeholder="Enter your Last Name" required>&nbsp;Last Name
+                                </div>
+                                <div class="row-1-col-1 pt-2">
+                                    <input type="text" id="first-name" name="first-name" placeholder="Enter your First Name" required>&nbsp;First Name
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-1-col-2 pt-2 resize">
+                                    <input type="text" id="middle-name" name="middle-name" placeholder="Enter your Middle Name" required>
+                                    <span class="middle-name">Middle Name</span>
+                                </div>
+                                <div class="row-1-col-2 pt-2">
+                                    <input type="text" id="suffix" name="suffix-name" placeholder="optional" required>&nbsp;Suffix
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><br>
+            <div>
+                <form action="#">
+                    <div class="row pad birthday-container">
+                        <div class="col-12 px-0">  
+                            <div class="name-row">
+                                <div class="row-2-col-1 pt-2">
+                                    <label for="name" class="title"><br> Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <span class="hidden-1"><br></span>
+                                        <input type="radio" id="male" name="gender" value="Male" required> 
+                                        <label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+                            
+                                        <input type="radio" id="female" name="gender" value="Female" required>
+                                        <label for="female">Female</label>&nbsp;&nbsp;&nbsp;
+                            
+                                        <input type="radio" id="others" name="gender" value="Others" required>
+                                        <label for="others">Prefer not to say</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><br>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-md-8 col-sm-8 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-3-col-1 pt-2">
+                                    <label for="birthday" class="title">Birthday&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="date" id="birthday" name="middle-name" required>&nbsp;
+                                </div>
+                                <div class="row-3-col-1 pt-2 px-1">
+                                    <label for="birthplace" class="title">Birthplace&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="birthplace" name="suffix-name" placeholder="Enter your place of birth" required>&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 px-0 resize">  
+                            <div class="name-row">
+                                <div class="row-3-col-2 pt-2 resize">
+                                    <label for="age" class="title"><br>Age</label>
+                                    <input type="text" id="age" name="first-name" placeholder="e.g. 20" required>
+                                </div>
+                                <div class="row-3-col-2 pt-2">
+                                    <label for="bloodtype" class="title long-title"><br>Bloodtype&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="bloodtype" name="first-name" placeholder="optional" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-md-8 col-sm-8 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-4-col-1 pt-2">
+                                    <label for="citizenship" class="title">Citizenship&nbsp;&nbsp;&nbsp;</label>
+                                    <select id="citizenship" name="citizenship" required>
+                                        <option value="" disabled selected>Select Citizenship</option>
+                                        <option value="Filipino">Filipino</option>
+                                        <option value="Dual Citizen">Dual Citizen</option>
+                                        <option value="Foreign National">Foreign National</option>
+                                    </select>
+                                </div>
+                                <div class="row-4-col-1 pt-2 px-1">
+                                    <label for="civil-status" class="title">Civil Status&nbsp;&nbsp;&nbsp;</label>
+                                    <select id="civilstat" name="civilstat" required>
+                                        <option value="" disabled selected>Select Civil Status</option>
+                                        <option value="Single">Single</option>
+                                        <option value="Married">Married</option>
+                                        <option value="Widowed">Widowed</option>
+                                        <option value="Divorced">Divorced</option>
+                                        <option value="Separated">Separated</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 px-0 resize">  
+                            <div class="name-row">
+                                <div class="row-4-col-2 pt-2 resize">
+                                    <label for="religion" class="title long-title"><br>Religion&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="religion" name="first-name" placeholder="Enter your religion" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-md-6 col-sm-6 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-5-col-1 pt-2"><br>
+                                    <label for="citizenship" class="title">Occupation&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="religion" name="first-name" placeholder="Enter your occupation" required>
+                                </div>
+                                <div class="row-5-col-1 pt-2 px-1"><br>
+                                    <label for="civil-status" class="title">Income&nbsp;&nbsp;&nbsp;</label>
+                                    <select id="civilstat" name="civilstat" required>
+                                        <option value="">Select Monthly Salary</option>
+                                        <option value="below-10k">Below ₱10,000</option>
+                                        <option value="10k-20k">₱10,000 - ₱20,000</option>
+                                        <option value="20k-30k">₱20,000 - ₱30,000</option>
+                                        <option value="30k-50k">₱30,000 - ₱50,000</option>
+                                        <option value="50k-100k">₱50,000 - ₱100,000</option>
+                                        <option value="100k-above">Above ₱100,000</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 px-0 resize">  
+                            <div class="name-row">
+                                <div class="row-5-col-2 pt-2 resize"><span class="hidden-3"><br></span><br>
+                                    <label for="citizenship" class="title">Highest Educational Attainment&nbsp;&nbsp;&nbsp;</label>
+                                    <select id="education" name="education">
+                                        <option value="">Select Educational Attainment</option>
+                                        <option value="elementary">Elementary</option>
+                                        <option value="high-school">High School</option>
+                                        <option value="vocational">Vocational</option>
+                                        <option value="associate">Associate Degree</option>
+                                        <option value="bachelors">Bachelor's Degree</option>
+                                        <option value="masters">Master's Degree</option>
+                                        <option value="doctorate">Doctorate</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><br>
+            <br><br>
+            
+            <div class="head px-0"><h1 class="px-0 text-center">Contact Information</h1></div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-12 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-6-col-1 pt-2">
+                                    <label for="name" class="title">Personal Email Address&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-12 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-3-col-1 ">
+                                    <label for="birthday" class="title">Phone #&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="birthday" name="middle-name" placeholder="Enter your phone number" required>&nbsp;
+                                </div>
+                                <div class="row-3-col-1 px-1">
+                                    <label for="birthplace" class="title">Landline #&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="birthplace" name="suffix-name" placeholder="optional" required>&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br><br>
+            
+            <div class="head px-0"><h1 class="px-0 text-center">Address Information</h1></div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2 ">
+                        <!-- Region Dropdown -->
+                        <div class="col-md-3 col-sm-3 px-0"><br>
+                            <label for="region" class="title">Region&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-8-col-1 ">
+                                    <select id="region" name="region" required>
+                                        <option value="">Select Region</option>
+                                        <option value="ncr">National Capital Region (NCR)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Municipality Dropdown -->
+                        <div class="col-md-3 col-sm-3 px-0"><br>
+                            <label for="municipality" class="title">City&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-8-col-1 ">
+                                    <select id="municipality" name="municipality" required disabled>
+                                        <option value="">Select Municipality/City</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Barangay Dropdown -->
+                        <div class="col-md-3 col-sm-3 px-0"><br>
+                            <label for="barangay" class="title">District&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-8-col-2 ">
+                                    <select id="district" name="district" required disabled>
+                                        <option value="">Select District</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Barangay Dropdown -->
+                        <div class="col-md-3 col-sm-3 px-0"><br>
+                            <label for="barangay" class="title">Barangay&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-8-col-2 ">
+                                    <select id="barangay" name="barangay" required disabled>
+                                        <option value="">Select Barangay</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-md-8 col-sm-8 px-0">
+                            <label for="name" class="title">&nbsp;&nbsp;&nbsp;</label>
+                            <div class="name-row">
+                                <div class="row-4-col-1 pt-2">
+                                    <label for="unit" class="title">House No.&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="unit" name="first-name" placeholder="House No." required>
+                                </div>
+                                <div class="row-4-col-1 pt-2 px-1">
+                                    <label for="bldg" class="title">Building&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="bldg" name="first-name" placeholder="Subdivision/Building" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 px-0 resize">  
+                            <div class="name-row">
+                                <div class="row-4-col-2 pt-2 resize">
+                                    <label for="street" class="title long-title"><br>Street/Road&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="street" name="first-name" placeholder="Street/Road" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div><br><br>
+            <div>
+                <form action="#"><hr class="hr-contact">
+                    <div class="row pad row-2">
+                        <div class="col-12 px-0">
+                            <div class="custom-name-row">
+                                <div class="custom-form-group pt-2">
+                                    <input type="radio" id="truth" name="attestation" value="truth" required>
+                                    <label for="truth" class="custom-text">
+                                        I attest the truthfulness of all the listed information.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+            <div>
+                <form action="#">
+                    <div class="row pad row-2">
+                        <div class="col-12 px-0">
+                            <div class="custom-name-row">
+                                <div class="custom-form-group pt-2">
+                                    <input type="radio" id="liability" name="attestation" value="liability" required>
+                                    <label for="liability" class="custom-text">
+                                        I accept that I am liable for any misinformation that may occur if an information mismatch arises with existing data elsewhere.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>   
+            <br><br>
+            <div class="row justify-content-center">
+                <a href="iloveujc.html" class="btn btn-primary justify-content-center w-25" target="_blank">Submit</a>
+            </div>          
+        </div>
+    </section>
+
+    
+    <section class="contact">
+        &nbsp; <br> &nbsp;
+    </section>
+</body>
+</html>

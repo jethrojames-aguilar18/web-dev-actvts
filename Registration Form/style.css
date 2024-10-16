@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+.logo-img {
+    max-width: 100px;  /* Control the width of the image */
+    height: auto;      /* Maintain aspect ratio */
+}
+
+.head-row {
+    display: flex;      /* Use flexbox for better alignment */
+    align-items: center; /* Vertically align the image and heading */
+}
+
+.text-header {
+    margin-left: 10px; /* Add some spacing between the image and the text */
+}
+
+.contact {
+    background-color: #ccc;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.contact-form {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    max-width: 900px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+.contact-head {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #180615dc;
+}
+
+.hr-contact {
+    width: 30%; 
+    height: 6px;  
+    background-color: #180615dc;  
+    border: none; 
+    margin-right: auto;  
+}
+
+.title, .title-2 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #180615dc;
+}
+
+.name-row {
+    display: flex;
+    gap: 10px; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.row-1-col-1, .row-1-col-2 {
+    flex: 1;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    align-self: start;
+    align-self: start;
+    justify-items: start;
+    justify-self: start;
+    flex-direction: column;
+}
+
+#first-name, #middle-name, #last-name, #suffix, #gender, #age, #bloodtype, #birthday, 
+#birthplace, #citizenship, #civilstat, #religion, #education, #email, 
+#region, #municipality, #barangay, #district, #unit, #bldg, #street {
+    height: 40px;
+    width: 100%; 
+    padding: 10px;  
+    background-color: rgb(241, 229, 229);  
+    border: none;             
+    outline: none;               
+    box-sizing: border-box;          
+    font-size: 14px;  
+}
+
+#first-name:hover, #middle-name:hover, #last-name:hover, #suffix:hover, #birthday:hover,
+#age:hover, #birthplace:hover, #citizenship:hover, #civilstat:hover, #religion:hover, 
+#bloodtype:hover, #education:hover, #email:hover, #region:hover, #municipality:hover, 
+#barangay:hover,#district:hover, #unit:hover, #bldg:hover, #street:hover  {
+    border: 2px solid darkgreen; /* Change the underline color on hover */
+}
+
+
+.resize {
+    padding-left: 15px;
+}
+
+.contain {
+    width: 75vw;
+}
+
+.row-1-col-1:first-child {
+    flex: 0 0 43%; 
+}
+
+.row-1-col-1:last-child {
+    flex: 0 0 55%; 
+}
+
+.row-1-col-2:first-child {
+    flex: 0 0 70%; 
+}
+
+.row-1-col-2:last-child {
+    flex: 0 0 25%; 
+}
+
+.row-2-col-1 {
+    flex: 0 0 100%;
+}
+
+.row-3-col-1:first-child {
+    flex: 0 0 43%; 
+}
+
+.row-3-col-1:last-child {
+    flex: 0 0 55%; 
+}
+
+.row-3-col-2:first-child {
+    flex: 0 0 35%; 
+}
+
+.row-3-col-2:last-child {
+    flex: 0 0 60%; 
+}
+
+.row-4-col-1:first-child {
+    flex: 0 0 49%;
+}
+
+.row-4-col-1:last-child {
+    flex: 0 0 49%;
+}
+
+.row-4-col-2:first-child {
+    flex: 0 0 99%;
+}
+
+.row-5-col-1:first-child {
+    flex: 0 0 40%;
+}
+
+.row-5-col-2:first-child {
+    flex: 0 0 10%;
+}
+
+.row-5-col-2:last-child {
+    flex: 0 0 99%;
+}
+
+.row-6-col-1:first-child {
+    flex: 0 0 99%;
+}
+
+.row-7-col-1:first-child {
+    flex: 0 0 40%;
+}
+.row-7-col-1:last-child {
+    flex: 0 0 40%;
+}
+
+.row-8-col-1:first-child {
+    flex: 0 0 96%;
+}
+
+.row-8-col-1:last-child {
+    flex: 0 0 96%;
+}
+
+.row-8-col-2:first-child {
+    flex: 0 0 96%;
+}
+
+.row-8-col-2:last-child {
+    flex: 0 0 96%;
+}
+
+/* Style the dropdown and input field */
+#other-religion {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.contact-btn {
+    background-color: darkolivegreen;
+    border: none; 
+    color: rgb(177, 216, 119);
+    border-radius: 20px;
+}
+
+.birthday-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hidden-1 {
+    display: none;
+}
+
+.custom-form-group {
+    display: flex;
+    align-items: flex-start; /* Keeps the radio button at the top */
+    gap: 10px; /* Space between radio button and text */
+}
+
+.custom-text {
+    display: block;
+    max-width: 100%; /* Allow text to wrap */
+    margin: 0;
+}
