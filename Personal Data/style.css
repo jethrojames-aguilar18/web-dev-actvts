@@ -254,6 +254,11 @@ header {
     margin-right: 0px;
     margin-left: 18px;
 }
+
+.portfolio {
+    background-color: rgb(206, 231, 169);
+}
+
 /* Background styling for the contact section */
 .contact {
     background-color: rgb(206, 231, 169);
