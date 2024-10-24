@@ -257,18 +257,18 @@ header {
 
 .portfolio {
     background-color: rgb(206, 231, 169);
+    font-family: "Baloo Paaji 2", sans-serif;
 }
 
 .docs {
     background-color: darkolivegreen;
+    font-family: "Baloo Paaji 2", sans-serif;
     border: 0;
 }
 
 .docs:hover {
     color: yellowgreen;
 }
-
-
 
 .education-timeline {
     position: relative;
