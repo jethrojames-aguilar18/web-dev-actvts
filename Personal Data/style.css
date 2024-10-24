@@ -270,6 +270,72 @@ header {
 
 
 
+.education-timeline {
+    position: relative;
+    padding: 20px;
+}
+
+.education-timeline .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.education-timeline .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background-color: #ddd;
+    z-index: 1;
+}
+
+.education-timeline .timeline-item {
+    position: relative;
+    width: 48%; /* Adjust to control the width of the cards */
+    padding: 20px;
+    margin-bottom: 40px;
+    background: white;
+    z-index: 2;
+}
+
+.education-timeline .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.education-timeline .timeline-item:nth-child(odd)::before {
+    left: -20px; /* For left column dots */
+}
+
+.education-timeline .timeline-item:nth-child(even)::before {
+    right: -20px; /* For right column dots */
+}
+
+@media (max-width: 768px) {
+    .education-timeline .timeline-item {
+        width: 100%; /* Stack cards in mobile */
+    }
+
+    .education-timeline .timeline::before {
+        left: 20px; /* Adjust timeline line for mobile */
+    }
+
+    .education-timeline .timeline-item::before {
+        left: 10px; /* Adjust dot positions for mobile */
+    }
+}
+
 /* Background styling for the contact section */
 .contact {
     background-color: rgb(206, 231, 169);
