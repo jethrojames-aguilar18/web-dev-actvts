@@ -123,6 +123,16 @@ header {
     display: none; /* Hide elements */
 }
 
+* Visible section of hidden elements */
+.hidden-3 {
+    display: inline; /* Make elements visible inline */
+}
+
+/* Hidden elements (typically for toggling visibility) */
+.hidden-4 {
+    display: none; /* Hide elements */
+}
+
 /* Item title with a green color and medium font weight */
 .item-title {
     color: darkolivegreen;
@@ -187,7 +197,7 @@ header {
 
 /* Card box height in skillset section */
 .card-box {
-    height: 140px;
+    height: 180px;
 }
 
 /* Larger logo container */

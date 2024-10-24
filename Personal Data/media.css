@@ -162,12 +162,20 @@
     }
 
     .card-box {
-        max-height: 100px;
+        max-height: 140px;
     }
 
     .skillset-logo {
         width: 50px;
         height: 50px;
+    }
+
+    .hidden-3 {
+        display: none; 
+    }
+
+    .hidden-4 {
+        display: inline; 
     }
 }
 
