@@ -1,0 +1,162 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffcc;
+    color: #330000;
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 20px auto;
+    height: 450px;
+    width: 750px;
+    border-style: solid;
+}
+
+#content1 {
+    display: block; 
+}
+
+.content {
+    display: none;
+}
+
+.content:target {
+    display: block; 
+}
+
+#rightcolumn .content {
+    display: none; 
+}
+
+#content1:target {
+    display: block;
+}
+
+#content2:target {
+    display: block;
+}
+
+#content3:target {
+    display: block;
+}
+
+#content4:target {
+    display: block;
+}
+
+body:not(:has(:target)) #content1 {
+    display: block;
+}
+
+#logo {
+    background-color:#ccaa66;
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+#leftcolumn {
+    background-color: #E8D882;
+    width: 130px;
+    height: 260px;
+    float: left;
+    padding: 10px;
+}
+
+#leftcolumn a.navBar {
+    display: block;
+    padding: 8px 10px;
+}
+
+#rightcolumn {
+    background-color: #f1e8b0;
+    width: 580px;
+    height: 260px;
+    padding: 10px;
+    float: right;
+}
+
+#CoffeePic {
+    float: right;
+    
+}
+
+#music-section {
+    max-height: 200px;
+    overflow-y: auto; 
+}
+
+.music audio {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+#content4 {
+    overflow: auto;
+    max-height: 250px;
+}
+
+.job {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#job-listings {
+    overflow-x: auto; 
+    padding: 10px; 
+    background-color: inherit; 
+    padding-top: 0%;
+    margin-top: 0%;
+
+}
+
+.job-box {
+    padding-top: 0%;
+    margin-top: 0%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    font-size: 12px;
+}
+
+.job-box:hover {
+    background-color: #e9e9e9;
+}
+
+.apply-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-self: end;
+    font-size: 14px;
+}
+
+.apply-button:hover {
+    background-color: #0b7c11; 
+}
+
+#footer {
+    clear: both;
+    background-color: #ccaa66;
+    border-top-style: solid;
+    height: 58px;
+    text-align: center;
+    font-style: italic;
+    width: 750px;
+    padding-top: 25px;
+    font-size: 0.7em;
+}

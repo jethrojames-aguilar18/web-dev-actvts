@@ -1,0 +1,194 @@
+@media(max-width:1241px){
+    .meet-title {
+        font-size: 27px; 
+    }
+
+    .item {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1142px){
+    .meet-title {
+        font-size: 24px; 
+    }
+
+    .item {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1023px){
+    .intro {
+        font-size: 50px !important;
+    }
+
+    .sub-intro {
+        font-size: 23px !important;
+    }
+}
+
+@media(max-width:947px){
+
+    .end-2 {
+        justify-content: center;
+    }
+
+    .hidden-1 {
+        display: none;
+    }
+
+    .hidden-2 {
+        display: inline;
+    }
+}
+
+@media(max-width:941px){
+    .intro {
+        font-size: 45px !important;
+    }
+
+    .sub-intro {
+        font-size: 20px !important;
+    }
+}
+
+@media(max-width:860px){
+    .intro {
+        font-size: 40px !important;
+    }
+
+    .sub-intro {
+        font-size: 19px !important;
+    }
+}
+
+@media (max-height: 855px) {
+    .banner {
+        overflow: hidden;
+        min-height: 512px;  /* Minimum height */
+        max-height: 512px;  /* Maximum height */
+        max-width: 100vw;   /* Prevent horizontal overflow */
+    }
+
+    .banner-img, .intro, .sub-intro {
+        transform: scale(1);  /* Prevent scaling */
+    }
+}
+
+@media(max-width:845px){
+    .intro {
+        font-size: 40px !important;
+    }
+
+    .sub-intro {
+        font-size: 18px !important;
+    }
+    .banner {   
+        height: 50vh;
+    }
+
+    .long {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:769px){
+    input[type="text"], input[type="email"] {
+        width: 100%;                /* Modify this for length (e.g. 100%, 300px) */
+        max-width: 400px;            /* Set a maximum width for larger screens */
+        padding: 10px;               /* Padding inside the input field */
+        background-color: rgb(206, 231, 169);   /* Background color of the input field */
+        border: none;                /* Remove borders */
+        border-bottom: 2px solid darkolivegreen; /* Add a colored underline */
+        outline: none;               /* Remove the default blue outline on focus */
+        box-sizing: border-box;       /* Ensure padding and width behave properly */
+        font-size: 15px;             /* Adjust font size */
+    }
+}
+
+@media(max-width:767px){
+    .banner-img {
+        width: 200px !important;
+    }
+
+    .intro {
+        padding-top: 10px;
+        font-size:40px !important;
+    }
+
+    .sub-intro {
+        font-size: 20px !important;
+    }
+
+    .banner {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .socials {
+        height: 20px;
+        width: 20px;
+    }
+
+    .contain {
+        background-color: rgb(206, 231, 169);
+    }
+
+    .meet-logo, .meet-desc {
+        background-color: rgb(177, 207, 130);
+        padding-right: 20px;
+    }
+
+    .meet-title {
+        font-size: 5vw; /* Further scaling for small devices */
+    }
+
+    .item {
+        font-size: 3vw;
+    }
+}
+
+@media(max-width:600px){
+    .logo .navbar-brand{
+        font-size: 30px;
+    }
+
+    .card-box {
+        max-height: 100px;
+    }
+
+    .skillset-logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .meet-title {
+        font-size: 5vw; /* Further scaling for small devices */
+    }
+
+    .meet-desc p, .meet-desc li {
+        font-size: 3.5vw;
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 360px) {
+    .meet-title {
+        font-size: 6vw; /* Adjust further for very small screens */
+    }
+
+    .meet-desc p, .meet-desc li {
+        font-size: 5vw;
+    }   
+}
+

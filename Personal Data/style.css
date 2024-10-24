@@ -1,0 +1,328 @@
+/* Importing fonts from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;  
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #000; /* Optional background */
+    transition: top 0.5s ease; /* Smooth transition for hiding */
+}
+
+/* Set the background color of the navbar */
+.menu {
+    background-color: darkolivegreen;
+}
+
+/* Style the logo text in the navbar */
+.logo .navbar-brand {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 1rem !important;
+    color: rgb(206, 231, 169); /* Light greenish color */
+}
+
+/* Style for each navigation item */
+.nav-item {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 20px; /* Slightly larger font for nav items */
+}
+
+/* Banner section settings, filling 80% of the viewport height */
+.banner {
+    background-color: darkolivegreen;
+    height: 80vh;
+    display: flex; /* Flexbox layout */
+}
+
+/* Main introduction text in the banner */
+.intro {
+    font-size: 60px; /* Large font size */
+    color: aliceblue; /* Light color for contrast */
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: bold;
+}
+
+/* Sub-introduction text in the banner */
+.sub-intro {
+    font-size: 25px;
+    color: aliceblue;
+    font-style: italic; /* Italic text for sub-heading */
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+/* Styling the banner image, ensuring it fills width and adds margin */
+.banner-img {
+    width: 100%; /* Full width image */
+    margin-left: 20px;
+}
+
+/* Style for any h2 text headers */
+.text-header.h2 {
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+/* Background color of the profile section */
+.profile {
+    background-color: rgb(206, 231, 169); /* Light greenish color */
+}
+
+/* Styling the profile header text */
+.profile-head {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 40px; /* Large text size */
+    font-weight: bold; /* Bold text */
+    color: darkolivegreen; /* Dark olive green color */
+}
+
+/* Horizontal line under profile section */
+.hr-profile {
+    width: 15%;  /* Short length for visual style */
+    height: 6px;  /* Thick line for emphasis */
+    background-color: darkolivegreen;  /* Dark olive green line */
+    border: none;  /* Remove default borders */
+    margin-left: auto;  /* Center the line */
+    margin-right: auto; /* Center the line */
+}
+
+/* Padding for the meet section logo */
+.meet-logo {
+    padding-top: 20px; /* Adds space above the logo */
+}
+
+/* Background color for the meet section */
+.bg-meet {
+    background-color: aquamarine; /* Light blue-green background */
+}
+
+/* Styling the title for the meet section */
+.meet-title {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 30px; /* Medium-large font size */
+    text-align: end;  /* Align text to the right */
+    justify-content: end;  /* Align content to the end in flex container */
+    align-items: end; /* Vertically align to end */
+    font-weight: bolder; /* Extra bold text */
+    color: darkolivegreen; /* Dark olive green color */
+}
+
+/* Visible section of hidden elements */
+.hidden-1 {
+    display: inline; /* Make elements visible inline */
+}
+
+/* Hidden elements (typically for toggling visibility) */
+.hidden-2 {
+    display: none; /* Hide elements */
+}
+
+/* Item title with a green color and medium font weight */
+.item-title {
+    color: darkolivegreen;
+    font-weight: 600; /* Semi-bold font weight */
+}
+
+/* Style for individual items */
+.item {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 20px; /* Medium font size */
+    font-weight: 600; /* Semi-bold font weight */
+    color: darkslategrey; /* Dark grey color */
+}
+
+/* Container styling with a specific size, background, and rounded corners */
+.contain {
+    max-height: 450px;  /* Maximum height */
+    max-width: 200px;   /* Maximum width */
+    background-color: rgb(177, 207, 130); /* Light green background */
+    border-radius: 50px;  /* Rounded corners */
+}
+
+/* Background color for the skillset section */
+.skillset {
+    background-color: rgb(108, 131, 67); /* Darker green background */
+}
+
+/* Skillset section header styling */
+.skillset-head {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(206, 231, 169);
+}
+
+/* Horizontal line in skillset section */
+.hr-skillset {
+    width: 20%;  
+    height: 6px;  
+    background-color: rgb(206, 231, 169);  
+    border: none;  
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
+/* Skillset logo alignment */
+.skillset-logo {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 75%;
+    height: 75%;
+}
+
+/* Skillset name text styling */
+.skillset-name {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+/* Card box height in skillset section */
+.card-box {
+    height: 140px;
+}
+
+/* Larger logo container */
+.big {
+    height: 95px;
+    align-items: flex-end;
+}
+
+/* Styling for logos' background */
+.logos {
+    background-color: rgb(206, 231, 169);
+    border-radius: 20px;
+}
+
+/* Logo title text styling */
+.logo-title {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+/* Skillset section title styling */
+.skillset-title {
+    font-size: 20px;
+}
+
+/* Smaller logo width and alignment */
+.x1 {
+    width: 120px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+/* Padding for specific elements */
+.pad-1 {
+    margin-right: 18px;
+    margin-left: 0px;
+}
+
+/* No right margin for specific elements */
+.end-1 {
+    margin-right: 0px;
+}
+
+/* No left margin for specific elements */
+.end-2 {
+    margin-left: 0px;
+}
+
+/* Padding for specific elements */
+.pad-2 {
+    margin-right: 0px;
+    margin-left: 18px;
+}
+/* Background styling for the contact section */
+.contact {
+    background-color: rgb(206, 231, 169);
+}
+
+/* Contact form background and border radius */
+.contact-form {
+    background-color: rgb(177, 216, 119);
+    border-radius: 20px;
+}
+
+/* Contact section header styling */
+.contact-head {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+/* Horizontal line in contact section */
+.hr-contact {
+    width: 10%;  
+    height: 6px;  
+    background-color: darkolivegreen;  
+    border: none;  
+    margin-right: auto;  
+}
+
+/* Contact section title styling */
+.contact-title {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+/* Input fields (text and email) styling */
+input[type="text"], input[type="email"] {
+    width: 100%;                
+    max-width: 316px;            
+    padding: 10px;               
+    background-color: rgb(206, 231, 169);   
+    border: none;                
+    border-bottom: 2px solid darkolivegreen; 
+    outline: none;               
+    box-sizing: border-box;     
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 400;  
+    font-size: 16px;             
+}
+
+/* Textarea field styling */
+textarea {
+    width: 100%;                   
+    max-width: 1015px;             
+    height: auto;                  
+    padding: 10px;                 
+    background-color: rgb(206, 231, 169);     
+    border: none;                  
+    border-bottom: 2px solid darkolivegreen; 
+    outline: none;                 
+    font-size: 16px;               
+    resize: none;                  
+    box-sizing: border-box;        
+}
+
+/* Contact button styling */
+.contact-btn {
+    background-color: darkolivegreen;
+    border: none; 
+    width: 15%;
+    color: rgb(177, 216, 119);
+    border-radius: 20px;
+}
+
+/* Footer section styling */
+.foot {
+    background-color: darkolivegreen;
+    color: aliceblue;
+    font-size: 13px;
+    font-family: "Baloo Paaji 2", sans-serif;
+}

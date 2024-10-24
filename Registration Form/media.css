@@ -1,0 +1,205 @@
+@media(max-width:353px){
+    .row-3-col-1:first-child {
+        flex: 0 0 10%;
+    }
+
+    .row-3-col-1:last-child {
+        flex: 0 0 30%;
+    }
+}
+
+@media(max-width:500px){
+    .hidden-1 {
+        display: block;
+    }
+}
+
+@media (max-width:581px) {
+    .row-3-col-2:last-child {
+        flex: 0 0 96%;
+    }
+}
+
+@media (max-width: 576px) {
+    .resize {
+        padding-left: 0px;
+    }
+
+    .contact-form {
+        max-width: 95%; 
+        padding: 10px; 
+    }
+
+    .title {
+        font-size: 16px; 
+    }
+
+    .title-2 {
+        font-size: 13px;
+    }
+
+    .contact-head {
+        font-size: 32px; 
+    }
+
+    .contact-btn {
+        font-size: 14px; /* Smaller button font size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+}
+
+@media (max-width: 604px){
+    .row-3-col-1:first-child {
+        flex: 0 0 42%; 
+    }
+    
+    .row-3-col-1:last-child {
+        flex: 0 0 55%; 
+    }
+
+    #birthday {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:617px){
+    .hidden-3 {
+        display: none;
+    }
+}
+
+@media (max-width: 666px) {
+    #birthday {
+        font-size: 12px;
+    }
+    
+    .row-3-col-1:last-child {
+        flex: 0 0 55%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custom-form-group {
+        flex-wrap: nowrap; /* Prevents radio button from going down */
+        align-items: flex-start; /* Keeps it aligned at the top */
+    }
+
+    .custom-text {
+        white-space: normal; /* Allows text to wrap like a paragraph */
+    }
+}
+
+@media (max-width: 769px) {
+    .name-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .name-row {
+        gap: 2%; 
+    }
+
+    #first-name, #middle-name, #last-name, #suffix, #birthday, #age, #birthplace, 
+    #citizenship, #civilstat, #religion {
+        width: 100%; 
+    }
+
+    .contact-form {
+        max-width: 90%; 
+        padding: 15px; 
+    }
+
+    .title {
+        font-size: 18px; /* Decrease label size */
+    }
+    .contact-btn {
+        font-size: 16px; /* Adjust button font size */
+        padding: 10px 20px; /* Adjust button padding */
+    }
+}
+
+@media (max-width:767px){
+    .row-3-col-1:last-child {
+        flex: 0 0 30%;
+    }
+}
+
+@media (max-width: 795px) {
+    .row-1-col-1:first-child {
+        flex: 0 0 40%;
+    }
+
+    .row-1-col-1:last-child {
+        flex: 0 0 55%;
+    }
+
+    .row-1-col-2:first-child {
+        flex: 0 0 68%; 
+    }
+    
+    .row-1-col-2:last-child {
+        flex: 0 0 23%; 
+    }
+
+    .row-3-col-1:first-child {
+        flex: 0 0 42%; 
+    }
+    
+    .row-3-col-1:last-child {
+        flex: 0 0 55%; 
+    }
+    
+    .row-3-col-2:first-child {
+        flex: 0 0 96%; 
+    }
+    
+    .title {
+        font-size: 18px; /* Decrease label size */
+    }
+}
+
+@media(max-width:907px){
+    .row-4-col-1:first-child {
+        flex: 0 0 48%;
+    }
+    
+    .row-4-col-1:last-child {
+        flex: 0 0 48%;
+    }
+    
+    .row-4-col-2:first-child {
+        flex: 0 0 99%;
+    }
+}
+
+@media (max-width:1008px){
+    .row-1-col-1:first-child {
+        flex: 0 0 42%; 
+    }
+    
+    .row-1-col-1:last-child {
+        flex: 0 0 55%; 
+    }
+
+    .row-3-col-1:first-child {
+        flex: 0 0 42%; 
+    }
+    
+    .row-3-col-1:last-child {
+        flex: 0 0 55%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-form {
+        max-width: 85%; /* Limit width to 85% of the screen */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .row-5-col-1:first-child{
+        flex: 0 0 100%;
+    }
+    .row-5-col-1:last-child{
+        flex: 0 0 100%;
+    }
+}
