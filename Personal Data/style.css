@@ -259,6 +259,15 @@ header {
     background-color: rgb(206, 231, 169);
 }
 
+.docs {
+    background-color: darkolivegreen;
+    border: 0;
+}
+
+.docs:hover {
+    color: yellowgreen;
+}
+
 /* Background styling for the contact section */
 .contact {
     background-color: rgb(206, 231, 169);
