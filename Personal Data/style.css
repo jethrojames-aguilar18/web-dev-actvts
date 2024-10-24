@@ -273,6 +273,7 @@ header {
 .education-timeline {
     position: relative;
     padding: 20px;
+    background-color: rgb(108, 131, 67);
 }
 
 .education-timeline .timeline {
@@ -298,7 +299,6 @@ header {
     width: 48%; /* Adjust to control the width of the cards */
     padding: 20px;
     margin-bottom: 40px;
-    background: white;
     z-index: 2;
 }
 
@@ -308,18 +308,8 @@ header {
     top: 20px;
     width: 10px;
     height: 10px;
-    background-color: #fff;
-    border: 2px solid #ddd;
     border-radius: 50%;
     z-index: 3;
-}
-
-.education-timeline .timeline-item:nth-child(odd)::before {
-    left: -20px; /* For left column dots */
-}
-
-.education-timeline .timeline-item:nth-child(even)::before {
-    right: -20px; /* For right column dots */
 }
 
 @media (max-width: 768px) {
@@ -329,10 +319,6 @@ header {
 
     .education-timeline .timeline::before {
         left: 20px; /* Adjust timeline line for mobile */
-    }
-
-    .education-timeline .timeline-item::before {
-        left: 10px; /* Adjust dot positions for mobile */
     }
 }
 
