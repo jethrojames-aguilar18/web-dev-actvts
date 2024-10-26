@@ -160,7 +160,7 @@ body:not(:has(:target)) #content1 {
 .music-box {
     flex: 0 0 calc(30% - 10px); 
     margin: 5px; 
-    background-color: #f9f9f9; 
+    background-color: burlywood; 
     border-radius: 20px; 
     padding: 20px; 
     text-align: center; 
