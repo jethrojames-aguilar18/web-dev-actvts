@@ -86,6 +86,28 @@ body:not(:has(:target)) #content1 {
     
 }
 
+#cafe-menu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    overflow-y: auto; /* Vertical scrolling */
+    max-height: 180px; /* Limit height if needed to control scroll area */
+    padding: 15px;
+    gap: 10px; /* Space between boxes */
+}
+
+.cafe-box {
+    padding-top: 0%;
+    margin-top: 0%;
+    padding: 15px;  
+    background-color: #f9f9f9;
+    font-size: 12px;
+}
+
+.cafe-img {
+    width: 125px;
+    height: auto;
+}
+
 #music-section {
     max-height: 200px;
     overflow-y: auto; 
