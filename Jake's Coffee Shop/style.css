@@ -89,8 +89,8 @@ body:not(:has(:target)) #content1 {
     display: flex;
     flex-direction: column; 
     overflow-y: auto; 
-    max-height: 180px; 
-    padding: 15px;
+    max-height: 240px; 
+    padding: 10px;
     gap: 10px; 
 }
 
@@ -100,11 +100,46 @@ body:not(:has(:target)) #content1 {
     padding: 15px;  
     background-color: #f9f9f9;
     font-size: 12px;
+    border-radius: 30px;
+    max-height: 250px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cafe-img {
-    width: 125px;
+    width: 180px;
     height: auto;
+    border-radius: 20px;
+}
+
+.row {
+
+    display: flex;
+}
+.menu-title {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-body {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buynow {
+    justify-content: center;
+    display: flex;
+}
+.btn {
+    background-color: #330000;
+    font: 200;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
 }
 
 #music-section {
