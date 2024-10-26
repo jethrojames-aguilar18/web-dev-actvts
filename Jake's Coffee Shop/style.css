@@ -83,16 +83,15 @@ body:not(:has(:target)) #content1 {
 
 #CoffeePic {
     float: right;
-    
 }
 
 #cafe-menu {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    overflow-y: auto; /* Vertical scrolling */
-    max-height: 180px; /* Limit height if needed to control scroll area */
+    flex-direction: column; 
+    overflow-y: auto; 
+    max-height: 180px; 
     padding: 15px;
-    gap: 10px; /* Space between boxes */
+    gap: 10px; 
 }
 
 .cafe-box {
