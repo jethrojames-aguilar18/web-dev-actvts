@@ -207,17 +207,17 @@ audio {
     border: 1px solid #ccc;
     padding: 15px;
     margin: 10px 0;
-    background-color: #f9f9f9;
+    background-color: burlywood;
     transition: background-color 0.3s;
     font-size: 12px;
 }
 
 .job-box:hover {
-    background-color: #e9e9e9;
+    background-color: rgb(209, 146, 63);
 }
 
 .apply-button {
-    background-color: #4CAF50; 
+    background-color: #42a846; 
     color: white;
     padding: 10px 15px;
     border: none;
