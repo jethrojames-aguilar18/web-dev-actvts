@@ -107,7 +107,7 @@ body:not(:has(:target)) #content1 {
 }
 
 .cafe-img {
-    width: 180px;
+    width: 230px;
     height: auto;
     border-radius: 20px;
 }
@@ -118,7 +118,7 @@ body:not(:has(:target)) #content1 {
 }
 .menu-title {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -131,6 +131,7 @@ body:not(:has(:target)) #content1 {
 .buynow {
     justify-content: center;
     display: flex;
+    padding-left: 110px;
 }
 .btn {
     background-color: #330000;
