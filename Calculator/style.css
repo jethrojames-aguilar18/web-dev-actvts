@@ -29,3 +29,27 @@ body {
     padding: 0%;
     margin: 0%;
 }
+
+.bg {
+    background-color: darkblue;
+    margin: auto;
+    display: flex;
+}
+.resultbox {
+    height: 11vh;
+    width: 30vw;
+    background-color: #f5f5dc;
+    padding: 0%;
+    margin: auto;
+    top: 0;
+}
+
+#result {
+    font-family: "Fredoka", serif;
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+    font-size: 30px;
+    font-weight: 600;
+    color: maroon;
+}
