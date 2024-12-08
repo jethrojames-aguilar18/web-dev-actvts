@@ -9,7 +9,7 @@ body {
 }
 #calc {
     background-color: rgb(0, 139, 139);
-    height: 80vh;
+    height: 90vh;
     width: 40vw;
     justify-content: center;
     align-items: center;
@@ -52,4 +52,34 @@ body {
     font-size: 30px;
     font-weight: 600;
     color: maroon;
+}
+
+.numbox {
+    font-family: "Fredoka", serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    gap: 5px; /* Adds space between buttons */
+    padding: 10px;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.num {
+    font-family: "Fredoka", serif;
+    font-size: 18px;
+    width: 7vw;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional rounded corners for buttons */
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.num:hover {
+    background-color: #d6d6d6; /* Changes color on hover */
+}
+
+.symbol {
+    font-size: 20px;
 }
