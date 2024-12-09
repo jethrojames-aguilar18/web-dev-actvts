@@ -8,12 +8,13 @@ body {
       margin: 0;
 }
 #calc {
-    background-color: rgb(0, 139, 139);
+    background-color: rgb(31, 36, 36);
     height: 90vh;
     width: 40vw;
     justify-content: center;
     align-items: center;
     margin: 0;
+    border-radius: 20px;
 }
 
 .title h1 {
@@ -31,7 +32,7 @@ body {
 }
 
 .bg {
-    background-color: darkblue;
+    background-color: gray;
     margin: auto;
     display: flex;
 }
@@ -68,7 +69,8 @@ body {
     font-size: 18px;
     width: 7vw;
     padding: 10px;
-    background-color: #e0e0e0;
+    color: beige;
+    background-color: rgb(31, 36, 36);
     border: 1px solid #ccc;
     border-radius: 5px; /* Optional rounded corners for buttons */
     cursor: pointer;
@@ -77,7 +79,9 @@ body {
 }
 
 .num:hover {
-    background-color: #d6d6d6; /* Changes color on hover */
+    background-color: #d6d6d6; 
+    color: black;
+    font-weight: bold;
 }
 
 .symbol {
